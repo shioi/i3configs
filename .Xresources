@@ -1,0 +1,59 @@
+!    *----------------------------*
+!    |  Dotfiles  -  .Xresources  |
+!    *----------------------------*
+
+
+! This files contains configuration for:
+!  * terminal colours
+!  * urxvt
+!  * rofi
+
+
+! === Font ===
+
+!*font:          xft:inconsolatazi4:size=8
+
+
+! === Colours ===
+
+URxvt.font : xft:Monospace:regular:size=8
+URxvt.scrollBar : false
+
+
+! special
+*.foreground:   #ffdefc
+*.background:   #26343e
+*.cursorColor:  #8c9eab
+
+! black
+*.color0:       #7c8ca6
+*.color8:       #aa8282
+
+! red
+*.color1:       #ea73d1
+*.color9:       #ba4da3
+
+! green
+*.color2:       #d8b273
+*.color10:      #ecd7b5
+
+! yellow
+*.color3:       #d9a6af
+*.color11:      #9c3f4f
+
+! blue
+*.color4:       #b9a98e
+*.color12:      #ecd7b5
+
+! magenta
+*.color5:       #cb1ed1
+*.color13:      #fd28ff
+
+! cyan
+*.color6:       #c18421
+*.color14:      #ecd7b5
+
+! white
+*.color7:       #e5e5e5
+*.color15:      #ffffff
+
